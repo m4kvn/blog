@@ -1,9 +1,7 @@
 language: bash
 sudo: false
-before_script:
-- bash ./script/git.sh
 script:
-- bash ./script/build.sh
+  - bash ./script/build.sh
 deploy:
   provider: firebase
   skip_cleanup: true
