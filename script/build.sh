@@ -2,7 +2,7 @@
 
 hugo_dir=./hugo
 hugo_bin=${hugo_dir}/hugo
-theme_name=dream
+theme_name=casper-two
 public_dir=./public
 
 if [ ! -e ${hugo_bin} ]; then
