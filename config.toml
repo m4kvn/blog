@@ -1,13 +1,45 @@
-baseURL = "https://blog.m4kvn.com/"
-languageCode = "ja"
-title = "m4kvn's blog"
-theme = "dream"
-copyright = "Copyright (c) 2018, m4kvn; all rights reserved."
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "ja"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
 
 [params]
+  title       = "m4kvn's blog"
+  subtitle    = ""
+
+  cover       = ""
+  description = ""
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "m4kvn"
+  fbName = "masahiro.saito.fun"
+  githubName = "m4kvn"
+
+  logo = ""
+  orgName = ""
+  orgWebsite = ""
+  orgDescription = ""
+
   author = "m4kvn"
-  description = "m4kvn simple blog"
-  avatar = "https://avatars.githubusercontent.com/m4kvn"
-  github = "m4kvn"
-  siteStartYear = 2018
-  aboutHeader = "About"
+  authorAvatar = "https://avatars.githubusercontent.com/m4kvn"
+  authorLocation = "Tokyo, JA"
+  authorWebsite = "https://blog.m4kvn.com"
+  authorDescription = ""
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200

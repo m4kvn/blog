@@ -1,0 +1,13 @@
+baseURL = "https://blog.m4kvn.com/"
+languageCode = "ja"
+title = "m4kvn's blog"
+theme = "dream"
+copyright = "Copyright (c) 2018, m4kvn; all rights reserved."
+
+[params]
+  author = "m4kvn"
+  description = "m4kvn simple blog"
+  avatar = "https://avatars.githubusercontent.com/m4kvn"
+  github = "m4kvn"
+  siteStartYear = 2018
+  aboutHeader = "About"
