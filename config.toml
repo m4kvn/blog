@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "https://blog.m4kvn.com/"
 theme           = "casper-two"
 languageCode    = "ja"
 disqusShortname = ""
